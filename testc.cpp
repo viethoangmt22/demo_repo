@@ -1,8 +1,12 @@
-#include<iostream>
+#include <iostream>
 
-using namespace std;
-
-int main(){
-    cout<<"Hello"<<endl;
+int main() {
+    int a = 1;
+    int b = 2;
+    int c;
+    c = a;
+    a = b;
+    b = c;
+    std::cout << a;
     return 0;
 }
